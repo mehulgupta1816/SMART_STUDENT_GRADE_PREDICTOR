@@ -1,4 +1,4 @@
-# Project Statement: EduFuzzy
+# Project Statement: SSGP (SMART STUDENT GRADE PREDICTOR)
 
 ## 1. Problem Statement
 In traditional academic environments, student performance evaluation is often rigid and binary. A student with **74% attendance** is often treated identically to one with **40% attendance** if the threshold is 75%, leading to unfair detention or lack of early intervention. Similarly, grading systems based on strict cutoffs fail to capture the **holistic** academic risk of a student who might be struggling in one area but excelling in another.
@@ -9,7 +9,7 @@ There is a lack of intelligent systems that can:
 3.  Group students based on **behavioral patterns** rather than just raw scores.
 
 ## 2. Scope of the Project
-**EduFuzzy** aims to build an intelligent decision-support system that transitions from "Crisp Logic" (Pass/Fail) to "Fuzzy Logic" (Degree of Risk). 
+**SSGP** aims to build an intelligent decision-support system that transitions from "Crisp Logic" (Pass/Fail) to "Fuzzy Logic" (Degree of Risk). 
 
 The scope includes:
 *   **Input Processing:** Ingesting raw academic data (Attendance %, Internal Marks).

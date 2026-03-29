@@ -7,7 +7,7 @@ SSGP( SMART STUDENT GRADE PREDICTOR) is an AI-powered academic analytics tool de
 *   **Intelligent Grouping:** Automatically segments students into clusters (e.g., "High Achievers", "At-Risk") using K-Means Clustering.
 *   **Automated Reporting:** Generates a detailed CSV report with risk status (Safe, Monitor, Critical).
 *   **Visual Analytics:** Produces a bar chart visualizing the risk distribution across the class.
-*   **Logic-Based Reasoning:** Includes a Prolog module (`edufuzzy.pl`) to demonstrate symbolic AI and rule-based inference for risk classification.
+*   **Logic-Based Reasoning:** Includes a Prolog module (`SSGP.pl`) to demonstrate symbolic AI and rule-based inference for risk classification.
 
 
 ## Technologies & Tools Used
@@ -49,7 +49,7 @@ Execute the main script:
 ### 6. Running the Prolog Module 
 To test the logic-based version of the engine:
 1.  Install [SWI-Prolog](https://www.swi-prolog.org/).
-2.  Open the `prolog/edufuzzy.pl` file in SWI-Prolog.
+2.  Open the `prolog/SSGP.pl` file in SWI-Prolog.
 3.  Run the query `report_all.` to see the classification of all students.
 
 ## Instructions for Testing

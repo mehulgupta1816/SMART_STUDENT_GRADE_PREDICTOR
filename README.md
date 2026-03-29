@@ -1,5 +1,5 @@
 ## Overview
-**EduFuzzy** is an AI-powered academic analytics tool designed to evaluate student performance holistically. Unlike traditional grading systems that use rigid thresholds (e.g., "Below 75% attendance = Detained"), EduFuzzy uses **Fuzzy Logic** to handle uncertainty and edge cases. It also integrates **Linear Regression** for grade prediction and **K-Means Clustering** for unsupervised student grouping, providing a complete picture of academic risk.
+SSGP( SMART STUDENT GRADE PREDICTOR) is an AI-powered academic analytics tool designed to evaluate student performance holistically. Unlike traditional grading systems that use rigid thresholds (e.g., "Below 75% attendance = Detained"), SSGP uses **Fuzzy Logic** to handle uncertainty and edge cases. It also integrates **Linear Regression** for grade prediction and **K-Means Clustering** for unsupervised student grouping, providing a complete picture of academic risk.
 
 ## Features
 *   **Fuzzy Risk Assessment:** Calculates a nuanced "Risk Score" (0-100%) based on Attendance and Internal Marks using a Fuzzy Inference System.
@@ -33,7 +33,7 @@ Navigate to the project directory in your terminal and run:
 `pip install numpy pandas scikit-fuzzy matplotlib networkx scipy packaging scikit-learn`
 
 ### 4. Setup Data
-Ensure a file named `students.csv` exists in the `data/` folder with the following structure:
+Ensure a file named `class_students.csv` exists in the `data/` folder with the following structure:
 | StudentID | Name | Attendance | InternalMarks |
 | :---: | :---: | :---: | :---: |
 | 101 | Alice | 85 | 42 |
@@ -53,7 +53,7 @@ To test the logic-based version of the engine:
 3.  Run the query `report_all.` to see the classification of all students.
 
 ## Instructions for Testing
-To verify the system works as expected, you can try these test cases by modifying the `data/students.csv` file:
+To verify the system works as expected, you can try these test cases by modifying the `data/class_students.csv` file:
 
 *   **Test Case 1 (Safe Student):** Add a student with **95% Attendance** and **48 Marks**.
     *   *Expected Output:* Fuzzy Risk Score < 30, Status: "Safe".

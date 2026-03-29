@@ -7,7 +7,7 @@ from src.ai_features import GradePredictor, StudentClusterer
 
 def main():
     # Initialize Modules
-    data_mgr = StudentDataManager('data/students.csv')
+    data_mgr = StudentDataManager('data/class_students.csv')
     fuzzy_vars = FuzzyVariables()
     rules = RuleBase()
     engine = InferenceEngine(fuzzy_vars, rules)

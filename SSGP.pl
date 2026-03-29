@@ -1,7 +1,7 @@
 % =======================================================================
-% PROJECT: EduFuzzy (Logic Module)
+% PROJECT: SSGP (Logic Module)
 % DOMAIN: Student Performance Risk Analysis
-% AUTHOR: Dhyaan Kanoja
+% AUTHOR: MEHUL GUPTA
 % =======================================================================
 
 % ------------------------------------------------------------------------------
@@ -75,7 +75,7 @@ analyze_student(Name) :-
 
 % Analyze ALL students in the database
 report_all :-
-    write('--- EDUFUZZY CLASS REPORT ---'), nl,
+    write('--- SSGP CLASS REPORT ---'), nl,
     student(ID, Name, Att, Marks),
     risk_status(Att, Marks, Status),
     format('~w | ~w% | ~w | ~w', [Name, Att, Marks, Status]), nl,
